@@ -20,7 +20,7 @@ The design consists of two modules:
 1. `ram`: A dual-port RAM with 32-bit data width and 32-entry depth.
 2. `sync_fifo`: The top-level FIFO module managing pointers and full/empty conditions.
 
-See the code in [`sync_fifo.v`](./sync_fifo.v) for the full implementation.
+See the code in [`sync_fifo.v`](./rtl/sync_fifo.v) for the full implementation.
 
 ### Port Description
 | Port       | Width | Direction | Description               |
